@@ -442,7 +442,7 @@ EXPLAIN = [
          wrongs={"use of pesticides": "No chemical is sprayed; a living predator is used.", "slash-and-burn": "That is a way of clearing land.", "use of plant hormones": "Plant hormones control growth and ripening or kill weeds."},
          hints=["A living thing is used to control the pest.", "The ladybird is a predator of the aphid.", "Biological (living) control."]),
     dict(id="e05_hormone_uses", level=1, lo="2.1g",
-         stem=f"The table lists farming methods.\n\n{T_METHODS}\n\nWhich of the following is a use of plant hormones?",
+         stem=f"The table lists farming methods.\n\n{T_METHODS}\n\nWhich is a use of plant hormones?",
          correct="making fruit ripen at the right time for sale",
          wrongs={"killing insects on the crop": "That is a pesticide.", "adding nitrogen to the soil": "That is a fertiliser.", "clearing forest for new fields": "That is slash-and-burn."},
          hints=["Plant hormones control the plant's own processes.", "Growth, ripening, and some kill weeds.", "Ripening of fruit."]),
