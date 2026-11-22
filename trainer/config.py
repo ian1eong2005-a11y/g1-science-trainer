@@ -12,7 +12,7 @@ CLASS_LIST = [c for group in CLASSES.values() for c in group]
 
 # G1 Science, syllabus K123 (Secondary Education Certificate 2027), numbered as the school's chapter notes (Chap 1-11).
 # Syllabus topic codes in brackets; learning-outcome tags are "<topic><letter>", e.g. "1.2m" = 1.2 Electricity (m) cost in kWh.
-CHAPTERS = {
+ALL_CHAPTERS = {
     1: "Energy",                      # 1.1
     2: "Electricity",                 # 1.2
     3: "Wave",                        # 1.3
@@ -25,6 +25,8 @@ CHAPTERS = {
     10: "Breathing",                  # 3.3
     11: "Blood Circulation",          # 3.4
 }
+LIVE_CHAPTERS = 5                     # chapters 1..LIVE_CHAPTERS have questions; raise this as chapters are written
+CHAPTERS = {k: v for k, v in ALL_CHAPTERS.items() if k <= LIVE_CHAPTERS}
 TOPIC_OF = {1: "1.1", 2: "1.2", 3: "1.3", 4: "1.4", 5: "2.1", 6: "2.2", 7: "2.3", 8: "3.1", 9: "3.2", 10: "3.3", 11: "3.4"}
 SECTIONS = {"1": "Machines Around Us (II)", "2": "Food Matters", "3": "Our Body and Health (II)"}
 

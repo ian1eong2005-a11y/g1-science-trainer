@@ -50,7 +50,7 @@ if rec is None:
         ss.pop("qs", None)
         st.info("Your session was reset. Please log in again.")
     st.markdown(f"## 🔬 {APP_TITLE}")
-    st.markdown("Train yourself on G1 Science (Chapters 1–11): calculation and data questions, explanation questions, and N-level style exam practice. Get **5 in a row** right to move up a level; **3 wrong in a row** moves you down one.")
+    st.markdown("Train yourself on G1 Science (Chapters 1–5 so far): calculation and data questions, explanation questions, and N-level style exam practice. Get **5 in a row** right to move up a level; **3 wrong in a row** moves you down one.")
     with st.form("login"):
         name = st.text_input("Your name", placeholder="e.g. Aisyah")
         options = [f"{grp} · {c}" for grp, cs in CLASSES.items() for c in cs]
