@@ -1,5 +1,7 @@
 # G1 Science Trainer (3NT)
 
+**Live app:** https://qtss-g1-science-trainer.streamlit.app  (teacher dashboard: add `?teacher=1` or use the sidebar)
+
 Adaptive self-study trainer for G1 Science, syllabus **K123** (Secondary Education Certificate 2027), for the 3NT / Sec 3 G1
 classes at Queenstown Secondary School. Streamlit app, no database. Built from the Sec 2 Science trainer (same engine, store,
 marker and UIs); content written for the K123 learning outcomes, from the school's chapter worksheets and the SEAB 5148 papers.
